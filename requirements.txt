@@ -1,0 +1,4 @@
+bitfinex-api-py
+scipy
+sortedcontainers
+pytest

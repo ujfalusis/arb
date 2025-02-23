@@ -1,0 +1,21 @@
+Cashflow types:
+- order book: spot, margin, futures
+- trades: spot, margin, futures
+- liquidations
+- OTC, deposit / withdrawal, ... : -
+
+Stage 0 - Raw data
+
+
+Stage 1 - Aggregated at one minute interval
+
+Stage 2 - Fibonacci?
+
+Metric calculations in graph structure
+
+Graph
+Node: asset
+Edge: 
+    - orderbook type: transition rates at XXX amount level
+    - trades type: volume and transition rate, direction (+/- amount)
+    - liquidation type:
